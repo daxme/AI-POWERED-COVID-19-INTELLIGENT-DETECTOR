@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Covid 19 detector</title>
+        <link rel="stylesheet" href="../static/css/login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    </head>
+    <body>
+        <div class=container>
+            <div class="title">Patient Survey
+            </div>
+            <form action="/login" method="post" enctype="multipart/form-data">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Temperature</span>
+                        <input type="number" name="temperature">
+                    </div>
+                </div>
+                    <label for="Bloodgroup">Blood Group:</label>
+
+                    <select class="bloodGroup" name="blood-group" id="bdDrop">
+                      <option value="A">A</option>
+                      <option value="A+">A+</option>
+                      <option value="B">B</option>
+                      <option value="B+">B+</option>
+                      <option value="AB">AB</option>
+                      <option value="O">O</option>
+                    </select><br>
+                    <br>
+                    <div class="complication">
+                        <label for="Current compications">Current complication</label><br>
+                        <input type="checkbox" id="Cancer" name="complications" value="Cancer">
+                        <label for="vehicle1">Cancer</label><br>
+                        <input type="checkbox" id="Diabetes" name="complications" value="Diabetes">
+                        <label for="vehicle2">Diabetes</label><br>
+                        <input type="checkbox" id="Pressure" name="complications" value="Pressure">
+                        <label for="vehicle3">Pressure</label><br>
+                        <input type="checkbox" id="Tuberclosis" name="complications" value="Tuberculosis">
+                        <label for="vehicle1">Tuberclosis</label><br>
+                        <input type="checkbox" id="HIV" name="complications" value="HIV">
+                        <label for="vehicle2">HIV</label><br>
+                        <input type="checkbox" id="Malaria" name="complications" value="Malaria">
+                        <label for="vehicle3">Malaria</label><br>
+                        <label for="Other compilication">Other complication</label>
+                    </div>
+  
+                    <div class="input-box">
+                        <input type="text" name="othercomplications">
+                    </div><br>
+
+                    <label for="Symptoms">Symptoms</label><br>
+                    <input type="checkbox" id="Sm1" name="symptomscheck" value="Fever">
+                    <label for="vehicle1"> Fever</label><br>
+                    <input type="checkbox" id="Sm2" name="symptomscheck" value="Throat pain">
+                    <label for="vehicle2"> Throat pain</label><br>
+                    <input type="checkbox" id="Sm3" name="symptomscheck" value="dizzness">
+                    <label for="vehicle3"> dizzness</label><br>
+                    <input type="checkbox" id="Sm4" name="symptomscheck" value="Lung complication">
+                    <label for="vehicle1"> Lung complication</label><br>
+                    <input type="submit" name="patient survey">
+            </form>
+        
+        </div>
+        {% if received%}
+        <p>{{received}}</p>
+        {% endif %}
+    </body>
+</html>

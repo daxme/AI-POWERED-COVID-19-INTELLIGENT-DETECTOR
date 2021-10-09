@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../static/css/homepage.css">
+    </head>
+    <body>
+        <section id="background"> 
+
+                <div class="uppercontent">
+                        <p style="font-size: 20px;">AI POWERED</p><br>
+  
+                        <h1 style="font-size: 45px;">COVID  19 INTELLIGENCE DETECTOR</h1>
+                    <div class="middlecontent">
+                        <a href="/reg"><span></span> Register</a> 
+                        <a href="/login"><span></span> Log In</a>   
+                     </div>
+                </div> 
+        </section>
+      
+       
+           <script>
+               var menuBtn = document.getElementById("menuBtn")
+               var sideNav = document.getElementById("sideNav")
+               var menu = document.getElementById("menu")
+            
+               sideNav.style.right = "-250px";
+               menuBtn.onclick = function(){
+                   if(sideNav.style.right == "-250px"){
+                       sideNav.style.right ="0";
+                       menu.src ="../static/images/cancel.png";
+                   }
+                   else{
+                       sideNav.style.right ="-250px";
+                       menu.src ="../static/images/menu.png";
+                   }
+               }
+           </script>
+        
+        
+    </body>
+</html>

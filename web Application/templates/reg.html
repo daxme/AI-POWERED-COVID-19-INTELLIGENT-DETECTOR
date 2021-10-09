@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body class="register-body">
+  <div class="reg-container">
+    <div class="title">Registration</div>
+    <div class="reg-content">
+      <form action="/reg" method="post" enctype="multipart/form-data">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="Enter Patient First name" name="firstname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter  Patient Last Name" name="lastname" required>
+          </div>
+        
+          <div class="input-box">
+            <span class="details">Age</span>
+            <input type="number" name="age" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Weight</span>
+            <input type="number" name="weight" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Height</span>
+            <input type="number" name="height"  required>
+          </div>
+          <div class="input-box">
+            <span class="details">Residency</span>
+            <input type="text" placeholder="Enter Patient residency" name="residency" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Patient Id</span>
+            <input type="text" placeholder="Enter Patient Id" name="patient_id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone</span>
+            <input type="text" placeholder="Enter Patient Phone" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1" value="Male">
+          <input type="radio" name="gender" id="dot-2" value="Female">
+          <input type="radio" name="gender" id="dot-3" value="Not Prefer">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div>
+    {%if received%}
+    <p>{{received}}</p>
+    {%endif%}
+  </div>
+</body>
+</html>
