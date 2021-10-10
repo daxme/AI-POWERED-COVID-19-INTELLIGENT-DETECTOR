@@ -5,3 +5,7 @@ While the RT-PCR test is the early method and  gold standard for diagnosing COVI
 One of the most important ways to diagnose COVID-19 is to use radiological images, including X-ray Chest imaging is a quick and easy procedure recommended by medical and health protocols and has been mentioned in several texts as the first tool in screening during epidemics.
 
 The aim of this project is to creat an AI intelligent radiognose tool to simply easy making detection of the covid-19 from the given x-ray images and also collecting and storing the different cases for the covid-19 outbreak accross the different areas.
+
+#### METHODS , DEPLOYMENT AND TOOLS USED 
+- I used Two algorithms based on CNN(Convolutional Nerual Network) in Deep Learning one i named as CovidDetectorNet that i built from scratch and another built based on the transfer learning which resnet101.
+- Then transfer learning showed high accuracy and performed well in both training and validation images ,therefore i deployed model based on transfer learning by using Flask API and resulted a Web Application that is simply as it saves time and quickly detect the covid-19 from the x-ray images.
