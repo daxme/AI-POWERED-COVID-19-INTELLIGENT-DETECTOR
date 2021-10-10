@@ -18,3 +18,22 @@ Resnet101              93%         92%           95%
 <img src="https://github.com/innocoder-official/AI-POWERED-COVID-19-INTELLIGENT-DETECTOR/blob/main/screenshot/COVID_19_image1_detector_system_GOODVIEW.png">
 
 - I used Python 3.9.2,sqlite database for storing the data from system and dataset obtained from  https://github.com/ieee8023/covid-chestxray-dataset
+
+
+### HOW TO USE FLASK APP 
+<ul>
+  <li>Install python version 3.9.2</li>
+  <li>Download repo, change to directory of repo, go to command prompt and run <b>python app.py</b></li>
+  <li>Then from command prompt write pip install name_of_packages </li>
+  <li>On command prompt, run <b>python app.py</b></li>
+  <li>Open your web browser and go to <b>127.0.0.1:5000</b> to access the Flask App</li>
+</ul>
+
+
+### AUTHOR
+#### INNOCENT CHARLES 
+<ul>
+<li>LinkedIn:https://www.linkedin.com/in/innocent-charles-329194214/</li>
+<li>Portfolio:https://innocentcharles.com/</li>
+</ul>
+
