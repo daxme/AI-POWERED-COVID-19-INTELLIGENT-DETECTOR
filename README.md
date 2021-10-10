@@ -30,6 +30,12 @@ Resnet101              93%         92%           95%
 </ul>
 
 
+### CONCLUSION 
+The application of deep learning in the field of COVID-19 radiologic image processing reduces false-positive and negative errors in the detection and diagnosis of this disease and offers a unique opportunity to provide fast, cheap, and safe diagnostic services to patients.
+
+### DISCLAIMER
+<strong>I am not from the medical background and this project has been developed for the demonstration of the concept so use it for study and research it does not yet approved by the medical proffesional</strong>.
+
 ### AUTHOR
 #### INNOCENT CHARLES 
 <ul>
