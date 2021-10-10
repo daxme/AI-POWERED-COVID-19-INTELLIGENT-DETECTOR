@@ -15,3 +15,4 @@ CovidDetectorNet       84%         25.6%         69.6%
 
 Resnet101              93%         92%           95%
 </pre>
+<img src="https://github.com/innocoder-official/AI-POWERED-COVID-19-INTELLIGENT-DETECTOR/blob/main/screenshot/COVID_19_image1_detector_system_GOODVIEW.png">
