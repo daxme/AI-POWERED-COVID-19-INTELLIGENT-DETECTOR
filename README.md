@@ -9,3 +9,9 @@ The aim of this project is to creat an AI intelligent radiognose tool to simply 
 #### METHODS , DEPLOYMENT AND TOOLS USED 
 - I used Two algorithms based on CNN(Convolutional Nerual Network) in Deep Learning one i named as CovidDetectorNet that i built from scratch and another built based on the transfer learning which resnet101.
 - Then transfer learning showed high accuracy and performed well in both training and validation images ,therefore i deployed model based on transfer learning by using Flask API and resulted a Web Application that is simply as it saves time and quickly detect the covid-19 from the x-ray images.
+<pre>
+                      Accuracy  Sensitivity   Specificity 
+CovidDetectorNet       84%         25.6%         69.6%
+
+Resnet101              93%         92%           95%
+</pre>
